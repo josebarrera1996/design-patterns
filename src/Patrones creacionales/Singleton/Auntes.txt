@@ -1,0 +1,25 @@
+                                                        .:SINGLETON:.
+
+Recursos:
+
+- https://sbcode.net/typescript/singleton/
+
+- https://refactoring.guru/es/design-patterns/singleton
+  - https://refactoring.guru/es/design-patterns/singleton/typescript/example
+
+- https://www.youtube.com/watch?v=-zEeQ4Jh0co&ab_channel=DominiCode
+
+
+.:INTRODUCCIÓN:.
+
+Singleton es un patrón de diseño creacional, que asegura que solo un objeto de su tipo exista y provee un punto único de acceso a él
+desde cualquier otro código.
+
+Singleton tiene casi los mismos pros y contras como las variables globales. A pesar de que son super-manejables, rompen con la modularidad
+de tu código.
+
+No puedes usar una clase que dependa de un Singleton en algún otro contexto sin trasladar el Singleton al otro contexto. La mayoría de las veces,
+esta limitación surge durante la creación de pruebas unitarias.
+
+Identificación: Singleton puede ser reconocido por un método de creación estático, que retorna el mismo objeto cacheado.
+

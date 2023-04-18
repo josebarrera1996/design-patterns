@@ -1,0 +1,11 @@
+                                                        .:USE CASE:.
+
+En el ejemplo, hay tres juegos creados. Todas son instancias independientes creadas a partir de su propia clase, pero todas
+comparten la misma tabla de clasificación. La clasificación es un Singleton.
+
+No importa cómo se crearon los juegos o cómo hacen referencia a la tabla de clasificación, siempre es un Singleton.
+
+Cada juego agrega un ganador de forma independiente, y todos los juegos pueden leer la tabla de clasificación modificada,
+independientemente del juego que la haya actualizado.
+
+(ver imagen)

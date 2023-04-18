@@ -1,0 +1,21 @@
+                                                        .:FACTORY METHOD:.
+
+Recursos: 
+
+- https://sbcode.net/typescript/factory/
+
+
+.:INTRODUCCIÓN:.
+
+Factory Method es un patrón de diseño creacional que resuelve el problema de crear objetos sin especificar sus clases concretas.
+
+El patrón Factory Method define un método que debe utilizarse para crear objetos, en lugar de una llamada directa al constructor
+(operador new). Las subclases pueden sobreescribir este método para cambiar las clases de los objetos que se crearán.
+
+Ejemplos de uso: El patrón Factory Method se utiliza mucho en el código TypeScript. Resulta muy útil cuando necesitas proporcionar 
+un alto nivel de flexibilidad a tu código.
+
+Identificación: Los métodos Factory pueden ser reconocidos por métodos de creación, que crean objetos de clases concretas, pero los 
+devuelven como objetos del tipo abstracto o interfaz.
+
+Recursos

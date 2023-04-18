@@ -1,0 +1,9 @@
+                                                        .:OBJETIVO:.
+
+Usando el patrón Builder en el contexto de un HouseBuilder.
+
+Hay varios directores que pueden crear sus propios objetos complejos.
+
+Tenga en cuenta que en la clase IglooDirector, no se llamaron todos los métodos de HouseBuilder.
+
+El builder puede construir objetos complejos en cualquier orden e incluir/excluir las partes que desee.

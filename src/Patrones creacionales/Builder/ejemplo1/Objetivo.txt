@@ -1,0 +1,7 @@
+
+.:OBJETIVO:.
+
+- El 'Client' crea a el 'Director'
+- El 'Client' llama a el constructor del 'Director' que administra cada paso del proceso de construcción.
+- El 'Director' retorna el producto a el cliente o alternativamente podría proveer un método para que el cliente lo recupere después.
+

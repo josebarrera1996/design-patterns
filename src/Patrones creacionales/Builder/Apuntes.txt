@@ -1,0 +1,24 @@
+                                                            .:BUILDER:.
+
+Recurso: https://sbcode.net/typescript/builder/
+
+El patrón Builder es un patrón de creación cuya intención es separar la construcción de un objeto complejo de su representación
+para que pueda usar el mismo proceso de construcción para crear diferentes representaciones.
+
+El Patrón Builder intenta resolver
+
+- ¿Cómo puede una clase crear diferentes representaciones de un objeto complejo?
+- ¿Cómo se puede simplificar una clase que incluye la creación de un objeto complejo?
+
+Los patrones Builder y Factory son muy similares en el hecho de que ambos instancian nuevos objetos en tiempo de ejecución. La 
+diferencia es cuando el proceso de creación del objeto es más complejo, por lo que en lugar de que Factory devuelva una nueva
+instancia de ObjectA, llama al método de construcción del director de constructores ObjectA.construct() que pasa por un proceso
+de construcción más complejo que involucra varios pasos. Ambos devuelven un Objeto/Producto.
+
+Terminología:
+
+- Product (Producto): El producto que se está construyendo.
+- Builder Interface (Interfaz del constructor): La interfaz que el 'Creador' debería implementar.
+- Builder (Constructor): Proporciona métodos para construir y recuperar el producto concreto. Implementa la interfaz del constructor.
+- Director: Tiene un método construct() que, cuando se llama, crea un producto personalizado utilizando los métodos del Builder.
+

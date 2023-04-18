@@ -1,0 +1,14 @@
+                                                            .:CASO DE USO:.
+
+Un caso de uso de ejemplo puede ser una interfaz de usuario donde el usuario puede seleccionar elementos de un menú, como sillas.
+
+Al usuario se le ha dado la opción de usar algún tipo de interfaz de navegación, y no se sabe qué opción o cuántas sillas agregará
+el usuario hasta que la aplicación se esté ejecutando y el usuario comience a usarla.
+
+Entonces, cuando el usuario seleccionó la silla, la fábrica toma alguna propiedad relacionada con esa selección, como una 
+identificación, tipo u otro atributo, y luego decide qué subclase relevante instanciar para devolver el objeto apropiado.
+
+Si bien hay una gran cantidad de código en este ejemplo y se distribuye en varios archivos, la fábrica real es la clase
+ChairFactory en el archivo chair-factory.ts. Entonces, la fábrica es la parte de su programa que crea una separación o 
+abstracción entre la creación de instancias de su objeto y dónde se usa.
+

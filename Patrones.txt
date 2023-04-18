@@ -1,0 +1,17 @@
+Patrones a tener en cuenta:
+
+- Singleton
+- Factory Method
+- Strategy
+- Observer
+- Builder
+- Adapter
+- State
+- Bridge
+- Facade
+- Visitor & Iterator
+- Command & Memento 
+- Proxy & Flyweight
+
+
+https://refactoring.guru/es/design-patterns/what-is-pattern
