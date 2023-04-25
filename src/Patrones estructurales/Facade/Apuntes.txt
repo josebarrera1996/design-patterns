@@ -1,0 +1,10 @@
+                                                                    .:FACADE:.
+
+A veces, tiene un sistema que se vuelve bastante complejo con el tiempo a medida que se agregan o modifican más funciones. 
+Puede ser útil proporcionar una API simplificada sobre él. Este es el patrón Fachada.
+
+El patrón Facade es esencialmente una interfaz alternativa, reducida o simplificada a un conjunto de otras interfaces, 
+abstracciones e implementaciones dentro de un sistema que puede estar lleno de complejidad y/o estrechamente acoplado.
+
+También se puede considerar como una interfaz de nivel superior que protege al consumidor de las complicaciones innecesarias
+de bajo nivel de la integración en muchos subsistemas.

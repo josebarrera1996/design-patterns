@@ -1,0 +1,10 @@
+.:Terminología:.
+
+- Abstraction Interface: una interfaz implementada por la abstracción refinada que describe los métodos comunes para implementar.
+
+- Refined Abstraction: Un refinamiento de una idea en otra clase o dos. Las clases deben implementar la interfaz de abstracción y 
+  asignar qué implementador concreto.
+
+- Implementer Interface: la interfaz del implementador que implementan los implementadores concretos.
+
+- Concrete Implementer: la lógica de implementación que utilizará la abstracción refinada.

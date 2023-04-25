@@ -1,0 +1,7 @@
+.:Terminología:.
+
+- Target: la interfaz o clase específica del dominio que debe adaptarse.
+- Adapter: la clase de adaptador concreta que contiene el proceso de adaptación.
+- Adapter Interface: la interfaz que el adaptador deberá implementar para que el destino sea compatible con el cliente.
+- Client: la aplicación cliente que utilizará el adaptador.
+

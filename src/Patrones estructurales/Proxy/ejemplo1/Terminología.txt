@@ -1,0 +1,12 @@
+
+.:Terminología:.
+
+* Proxy: Un objeto con una interfaz idéntica al sujeto real. Puede actuar como marcador de posición hasta que se cargue el tema 
+         real o como guardián aplicando funcionalidad adicional.
+
+* Subject Interface: Una interfaz implementada tanto por el Proxy como por el Sujeto Real.
+
+* Real Subject: El objeto real real que representa el proxy.
+
+* Client: La aplicación cliente que usa y crea el Proxy.
+

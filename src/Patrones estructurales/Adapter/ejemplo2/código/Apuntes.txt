@@ -1,0 +1,14 @@
+.:Ejercicio:.
+
+El cliente de ejemplo puede fabricar un Cubo utilizando diferentes herramientas. Cada solución es inventada por una empresa
+diferente. La interfaz de usuario del cliente gestiona el producto Cube indicando el ancho, la altura y la profundidad. 
+Esto es compatible con la empresa A que produce la herramienta Cube, pero no con la empresa B que produce su propia versión 
+de la herramienta Cube que utiliza una interfaz diferente con diferentes parámetros.
+
+En este ejemplo, el cliente reutilizará la interfaz para el Cubo de la empresa A y creará un Cubo compatible de la empresa B.
+
+Se necesitará un adaptador para que el cliente pueda usar la misma firma de método sin la necesidad de pedirle a la empresa B 
+que modifique su herramienta Cube para nuestro caso de uso de dominios específicos.
+
+Mi empresa imaginaria necesita usar ambos proveedores de cubos ya que hay una gran demanda de cubos y cuando un proveedor está 
+ocupado, puedo preguntarle al otro proveedor.

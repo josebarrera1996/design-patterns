@@ -1,0 +1,27 @@
+                                                         .:ADAPTER:.
+
+
+A veces, las clases se han escrito y no tiene la opción de modificar su interfaz para adaptarla a sus necesidades. Esto sucede
+si el método al que está llamando está en un sistema diferente a través de una red, una biblioteca que puede importar o, en general,
+algo que no es viable modificar directamente para sus necesidades particulares.
+
+El patrón de diseño del adaptador resuelve estos problemas:
+
+- ¿Cómo se puede reutilizar una clase que no tiene una interfaz que requiere un cliente?
+- ¿Cómo pueden trabajar juntas las clases que tienen interfaces incompatibles?
+- ¿Cómo se puede proporcionar una interfaz alternativa para una clase?
+
+Puede tener dos clases que son similares, pero tienen firmas de métodos diferentes, por lo que crea un Adaptador sobre una de las
+firmas de métodos para que sea más fácil de implementar y extender en el cliente.
+
+Un adaptador es similar al Decorator en la forma en que también actúa como un envoltorio para un objeto. También se usa en tiempo
+de ejecución; sin embargo, no está diseñado para usarse de forma recursiva.
+
+Es una interfaz alternativa sobre una interfaz existente. Además, también puede proporcionar una funcionalidad adicional que la
+interfaz que se está adaptando no puede proporcionar.
+
+El adaptador es similar a Facade, pero está modificando la firma del método, combinando otros métodos y/o transformando los datos
+que se intercambian entre la interfaz existente y el cliente.
+
+El adaptador se usa cuando tiene una interfaz existente que no se asigna directamente a una interfaz que requiere el cliente. 
+Entonces, crea el adaptador que tiene un rol funcional similar, pero con una nueva interfaz compatible.

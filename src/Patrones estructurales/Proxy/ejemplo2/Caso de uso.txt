@@ -1,0 +1,8 @@
+.:CASO DE USO:.
+
+En este ejemplo, cambio dinámicamente la clase de un objeto. Entonces, esencialmente estoy usando un objeto como un proxy para 
+otras clases.
+
+Cada vez que se llama al método tell_me_the_future(); cambiará aleatoriamente el objeto para usar una clase diferente.
+
+El objeto PROTEUS utilizará entonces los mismos atributos estáticos y métodos de clase de la nueva clase.

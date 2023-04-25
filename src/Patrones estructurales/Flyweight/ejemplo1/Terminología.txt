@@ -1,0 +1,12 @@
+.:Terminología:.
+
+- Flyweight Interface: una interfaz que describe las propiedades intrínsecas del Flyweight.
+
+- Concrete Flyweigh: el objeto de peso mosca real que almacena los atributos intrínsecos y se crea una instancia cuando la fábrica
+  lo necesita.
+
+- Flyweight Factory: crea y gestiona los flyweights en tiempo de ejecución. Reutiliza pesos mosca o crea uno nuevo bajo demanda.
+
+- Context: cualquier objeto dentro de su aplicación que utilizará Flyweight Factory.
+
+- Client: La aplicación cliente que contiene contextos.

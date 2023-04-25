@@ -1,0 +1,24 @@
+                                                                .:PROXY:.
+
+El patrón de diseño Proxy es una clase que funciona como una interfaz para otra clase u objeto.
+
+Un Proxy puede ser para cualquier cosa, como una conexión de red, un objeto en la memoria, un archivo o cualquier otra cosa que 
+necesite para proporcionar una abstracción entre ellos.
+
+Tipos de proxies:
+
+* Proxy virtual: un objeto que puede almacenar en caché partes del objeto real y luego completar la carga del objeto completo 
+  cuando sea necesario.
+
+* Proxy remoto: Puede transmitir mensajes a un objeto real que existe en un espacio de direcciones diferente.
+
+* Proxy de protección: Aplique una capa de autenticación frente al objeto real.
+
+* Referencia inteligente: Un objeto cuyos atributos internos se pueden anular o reemplazar.
+
+Se puede proporcionar funcionalidad adicional en la abstracción del proxy si es necesario. Por ejemplo, almacenamiento en caché, 
+autorización, validación, inicialización diferida, registro.
+
+El proxy debe implementar la interfaz de asunto tanto como sea posible para que el proxy y el asunto parezcan idénticos al cliente.
+
+

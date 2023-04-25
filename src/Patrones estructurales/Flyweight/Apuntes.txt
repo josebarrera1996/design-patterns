@@ -1,0 +1,32 @@
+                                                                    .:FLYWEIGHT:.
+
+Fly en el término Flyweight significa ligero/no pesado.
+
+En lugar de crear miles de objetos que comparten atributos comunes y dar como resultado una situación en la que se usa una gran 
+cantidad de memoria u otros recursos, puede modificar sus clases para compartir varias instancias simultáneamente utilizando algún 
+tipo de referencia al objeto compartido.
+
+El mejor ejemplo para describir esto es un documento que contiene muchas palabras y oraciones y está compuesto por muchas letras. 
+En lugar de almacenar un nuevo objeto para cada letra individual que describe su fuente, posición, color, relleno y muchas otras 
+cosas potenciales. Puede almacenar solo una identificación de búsqueda de un personaje en una colección de algún tipo y luego crear
+ dinámicamente el objeto con su formato adecuado, etc., solo cuando lo necesite.
+
+Este enfoque ahorra mucha memoria a expensas de utilizar CPU adicional para crear el objeto en el momento de la presentación.
+
+El patrón Flyweight describe cómo puede compartir objetos en lugar de crear miles de objetos casi repetidos innecesariamente.
+
+Un Flyweight actúa como un objeto independiente en cualquier número de contextos. Un contexto puede ser una celda en una tabla o 
+un div en una página HTML. Un contexto está utilizando Flyweight.
+
+Puede tener muchos contextos, y cuando soliciten un Flyweight, obtendrán un objeto que ya puede estar compartido entre otros 
+contextos, o ya dentro de sí mismo en otro lugar.
+
+Al describir los pesos mosca, es útil describirlos en términos de atributos intrínsecos y extrínsecos.
+
+Intrínsecos (en o incluidos) son los atributos de un peso mosca que son internos y únicos de los otros pesos mosca. Por ejemplo, 
+un nuevo peso mosca para cada letra del alfabeto. Cada letra es intrínseca al peso mosca.
+
+Extrínsecos (fuera o externo) son los atributos que se utilizan para presentar el peso mosca en términos del contexto donde se 
+utilizará. Por ejemplo, muchas letras en una cadena se pueden alinear a la derecha entre sí. La propiedad extrínseca de cada letra 
+es el nuevo posicionamiento de su X e Y en una cuadrícula.
+

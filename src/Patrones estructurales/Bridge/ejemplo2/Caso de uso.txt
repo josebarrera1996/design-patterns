@@ -1,0 +1,13 @@
+.:Caso de uso:.
+
+En este ejemplo, dibujo un cuadrado y un círculo. Ambos pueden clasificarse como formas.
+
+La forma se configura como la interfaz de abstracción. Las abstracciones refinadas, Square y Circle, implementan la interfaz 
+IShape.
+
+Cuando se crean los objetos Square y Circle, también se les asignan sus implementadores apropiados, SquareImplementer y 
+CircleImplementer.
+
+Cuando se llama al método de dibujo de cada forma, se llama al método equivalente dentro de su implementador.
+
+El cuadrado y el círculo están unidos y cada implementador y abstracción se puede trabajar de forma independiente.

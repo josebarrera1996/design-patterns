@@ -1,0 +1,35 @@
+                                                                .:BRIDGE:.
+
+
+El patrón Bridge es similar al Adapter excepto en la intención de que lo haya desarrollado.
+
+El Puente es un enfoque para refactorizar el código ya existente, mientras que el Adaptador crea una interfaz sobre el código 
+existente a través de los medios disponibles existentes sin refactorizar ningún código o interfaz existente.
+
+La motivación para convertir su código al patrón Bridge es que puede estar estrechamente acoplado. Hay lógica y abstracción juntas 
+que limitan sus opciones sobre cómo puede extender su solución de la manera que necesita.
+
+Por ejemplo, puede tener una clase de automóvil que produce un automóvil muy agradable.
+
+const CAR = new car()
+> El auto tiene ruedas, motor, ventanas y todo lo demás.
+
+Pero le gustaría delegar el motor dinámicamente desde un conjunto separado de clases o soluciones.
+
+const ENGINE = new MotorA()
+const CAR = new Car (ENGINE)
+
+El patrón Bridge es un proceso sobre la separación de la abstracción y la implementación, por lo que le permitirá más formas de 
+usar sus clases.
+
+Antes no existía un Bridge, pero desde que se separó la interfaz y la lógica, cada lado puede extenderse independientemente el uno 
+del otro.
+
+El patrón Bridge debe usar composición en lugar de herencia. Esto significa que asigna la relación cuando el objeto se crea en 
+tiempo de ejecución en lugar de codificarlo en la definición de clase.
+
+Es decir, CAR = new Car (EngineA) en lugar de class Car extiende EngineA
+
+Una implementación de Bridge generalmente será más limpia que una solución de Adaptador que se instaló. Dado que implicaba 
+refactorizar el código existente, en lugar de colocar capas sobre soluciones heredadas o de terceros que pueden no haber sido 
+diseñadas para su caso de uso particular.

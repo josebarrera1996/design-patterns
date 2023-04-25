@@ -1,0 +1,9 @@
+.:Ejercicio:.
+
+Este es un ejemplo de una API de motor de juego. La capa de fachada está creando una interfaz optimizada que consta de varios 
+métodos de varios sistemas de back-end de API más grandes.
+
+El cliente podría conectarse directamente a la API de cada subsistema e implementar sus protocolos de autenticación, métodos 
+específicos, etc. Si bien es posible, sería de mucha consideración para cada uno de los equipos de desarrollo, por lo que la 
+API de fachada unifica los métodos comunes que se convierten en mucho menos abrumador para cada nuevo desarrollador de cliente 
+en el que integrarse.
