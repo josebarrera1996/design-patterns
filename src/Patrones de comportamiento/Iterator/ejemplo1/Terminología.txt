@@ -1,0 +1,10 @@
+.:TERMINOLOGÍA:.
+
+* Iterator Interface: La interfaz para un objeto a implementar.
+
+* Concrete Iterator: (Iterable) El objeto instanciado que implementa el iterador y contiene una colección de agregados
+
+* Aggregate Interface: Una interfaz para definir un agregado (objeto).
+
+* Concrete Aggregate: El objeto que implementa la interfaz Aggregate.
+

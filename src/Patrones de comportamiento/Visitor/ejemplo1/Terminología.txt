@@ -1,0 +1,14 @@
+.:TERMINOLOGÍA:.
+
+Visitor Interface: Una interfaz para los visitantes concretos.
+
+
+Concrete Visitor: El Visitante Concreto recorrerá la jerarquía de elementos.
+
+
+Concrete Element: (Parte) Un objeto que será visitado. Una aplicación contendrá un número variable de Elementos/Partes que se 
+                  pueden estructurar en cualquier jerarquía particular.
+
+
+Visitable Interface: La interfaz que deben implementar los elementos/partes, que describe el método accept() que permitirá que 
+                     sean visitados (atravesados).

@@ -1,0 +1,10 @@
+.:CASO DE USO:.
+
+El iterador en este breve ejemplo devolverá el siguiente número en el iterador multiplicado por 2 módulo 11. Crea dinámicamente el 
+objeto devuelto (número) en tiempo de ejecución.
+
+No tiene el método hasNext() ya que el resultado está modulado por 11, que reproducirá los resultados sin importar cuán grande sea 
+el índice del iterador. Además, también parecerá alternar entre una serie de números pares e impares.
+
+Además, solo para demostrar que la implementación de clases e interfaces abstractas no siempre es necesaria, este ejemplo no 
+utiliza clases o interfaces base abstractas.

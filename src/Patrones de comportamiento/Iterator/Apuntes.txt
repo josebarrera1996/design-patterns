@@ -1,3 +1,11 @@
-                                                                                .:DECORATOR:.
+                                                                    .:ITERATOR:.
 
+
+El iterador normalmente contendrá dos métodos que realizan los siguientes conceptos.
+
+* next: devuelve el siguiente objeto en el agregado (colección, objeto).
+* hasNext: devuelve un valor booleano que indica si el Iterable está al final de la iteración o no.
+
+Los beneficios de usar el patrón Iterator son que el cliente puede atravesar una colección de agregados (objetos) sin necesidad de 
+comprender sus representaciones internas y/o estructuras de datos.
 

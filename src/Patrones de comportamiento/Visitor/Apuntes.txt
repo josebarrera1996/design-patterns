@@ -1,3 +1,19 @@
                                                                                 .:DECORATOR:.
 
+La estructura de su objeto dentro de una aplicación puede ser complicada y variada. Un buen ejemplo es lo que podría crearse 
+utilizando la estructura compuesta.
 
+Los objetos que conforman la jerarquía de objetos pueden ser cualquier cosa y muy probablemente complicados de modificar a medida 
+que crece su aplicación.
+
+En cambio, al diseñar los objetos en su aplicación que pueden estructurarse de manera jerárquica, puede permitirles implementar una
+interfaz de Visitante.
+
+La interfaz Visitor describe un método accept() que un objeto diferente, llamado Visitor, utilizará para atravesar la jerarquía de 
+objetos existente y leer los atributos internos de un objeto.
+
+El patrón Visitor es útil cuando desea analizar o reproducir una jerarquía de objetos alternativa sin implementar código adicional 
+en las clases de objetos, a excepción de los requisitos originales establecidos al implementar la interfaz Visitor.
+
+De manera similar al patrón de plantilla, podría usarse para generar diferentes versiones de un documento, pero más adecuado para 
+objetos que pueden ser miembros de una jerarquía.

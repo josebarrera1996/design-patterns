@@ -1,0 +1,13 @@
+.:TERMINOLOGÍA:.
+
+* Receiver: El objeto que recibirá y ejecutará el comando.
+
+* Invoker: El objeto que envía el comando al receptor. Por ejemplo, un botón.
+
+* Command Object: En sí mismo, un objeto que implementa un método de execute() u otro método de acción, y contiene toda la 
+                  información necesaria para ejecutarlo.
+
+* Client: La aplicación o componente que conoce el Receptor, el Invocador y los Comandos.
+
+
+

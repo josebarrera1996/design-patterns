@@ -1,3 +1,16 @@
-                                                                                .:DECORATOR:.
+                                                                        .:MEMENTO:.
 
 
+A lo largo del ciclo de vida de una aplicación, el estado de un objeto puede cambiar. Es posible que desee almacenar una copia del 
+estado actual en caso de recuperación posterior. Por ejemplo, al escribir un documento, es posible que desee guardar 
+automáticamente el estado actual cada 10 minutos. O tienes un juego y quieres guardar la posición actual de tu jugador en el nivel,
+con su puntuación e inventario actual.
+
+Puede usar el patrón Memento para guardar una copia del estado y recuperarla más tarde si es necesario.
+
+El patrón Memento, al igual que el patrón Command, también se usa comúnmente para implementar la funcionalidad UNDO/REDO dentro de 
+su aplicación.
+
+La diferencia entre los patrones Command y Memento para UNDO/REDO, es que en el patrón Command, usted vuelve a ejecutar los 
+comandos en el mismo orden en que cambiaron los atributos de un estado, y con Memento, reemplaza completamente el estado 
+recuperando de para almacenar en caché/almacenar.

@@ -1,0 +1,11 @@
+.:CASO DE USO:.
+
+Este será un interruptor de luz inteligente.
+
+Este interruptor de luz mantendrá un historial de cada vez que se llamó a uno de sus comandos.
+
+Y puede reproducir sus comandos.
+
+Un interruptor de luz inteligente podría extenderse en el futuro para ser llamado de forma remota o automatizado dependiendo de los
+sensores.
+

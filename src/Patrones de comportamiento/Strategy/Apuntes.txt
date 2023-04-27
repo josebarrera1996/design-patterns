@@ -1,3 +1,21 @@
-                                                                                .:DECORATOR:.
+                                                                    .:STRATEGY:.
 
+El patrón de estrategia es similar al patrón de estado, excepto que el cliente pasa el algoritmo que debe ejecutar el contexto.
 
+El algoritmo debe estar contenido dentro de una clase que implemente la interfaz de estrategias particular.
+
+Una aplicación que ordena datos es un buen ejemplo de dónde puede incorporar el patrón Estrategia.
+
+Hay muchos métodos para clasificar un conjunto de datos. Por ejemplo, Quicksort, Mergesort, Introsort, Heapsort, Bubblesort. 
+Consulte https://en.wikipedia.org/wiki/Sorting_algorithm para obtener más ejemplos.
+
+La interfaz de usuario de la aplicación cliente puede proporcionar un menú desplegable para permitir que el usuario pruebe los 
+diferentes algoritmos de clasificación.
+
+Tras la selección del usuario, se pasará una referencia al algoritmo al contexto y se procesará utilizando este nuevo algoritmo en 
+su lugar.
+
+La estrategia y el estado parecen muy similares, una buena manera de diferenciarlos es considerar si el estado del contexto es 
+elegir el algoritmo en tiempo de ejecución o si el algoritmo se pasa a él.
+
+Los complementos de software se pueden implementar utilizando el patrón de estrategia.

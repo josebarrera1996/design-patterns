@@ -1,0 +1,11 @@
+.:TERMINOLOGÍA:.
+
+* Originator: El originador es un objeto con un estado interno que cambia en ocasiones.
+
+
+* Caretaker: (Guardián) Una Clase que le pide al Creador que cree o restaure Recuerdos. El Guardián los guarda en un caché o 
+             tienda de recuerdos.
+
+
+* Memento: Una copia del estado interno del originador que luego se puede restaurar nuevamente en el originador para reemplazar su 
+           estado actual.

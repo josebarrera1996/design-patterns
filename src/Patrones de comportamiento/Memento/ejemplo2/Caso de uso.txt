@@ -1,0 +1,6 @@
+.:CASO DE USO:.
+
+Hay un juego, y el personaje está progresando a través de los niveles. Ha adquirido varios elementos nuevos en su inventario, la 
+puntuación es muy buena y desea guardar su progreso y continuar más tarde.
+
+Luego decide que cometió un error y necesita volver a un guardado anterior porque tomó un giro equivocado.

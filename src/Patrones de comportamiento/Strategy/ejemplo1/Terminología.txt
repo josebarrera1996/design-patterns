@@ -1,0 +1,9 @@
+.:TERMINOLOGÍA:.
+
+* Strategy Interface: Una interfaz que todas las subclases/algoritmos de Estrategia deben implementar.
+
+
+* Concrete Strategy: La subclase que implementa un algoritmo alternativo.
+
+
+* Context: Este es el objeto que recibe la estrategia concreta para ejecutarla.

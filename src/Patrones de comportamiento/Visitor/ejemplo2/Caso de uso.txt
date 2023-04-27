@@ -1,0 +1,10 @@
+.:CASO DE USO:.
+
+En el ejemplo, el cliente crea un coche con piezas.
+
+El coche y las piezas heredan una clase abstracta de piezas de coche con captadores y definidores de propiedades predefinidos.
+
+En lugar de crear métodos en las clases de piezas de automóviles y clases abstractas que ejecutan métodos personalizados, todas las
+piezas de automóviles pueden implementar la interfaz IVisitor.
+
+Esto permite la creación posterior de objetos de Visitante para ejecutar tareas específicas en la jerarquía de objetos existente.

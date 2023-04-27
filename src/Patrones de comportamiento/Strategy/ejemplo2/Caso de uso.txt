@@ -1,0 +1,8 @@
+.:CASO DE USO:.
+
+Un personaje de juego se mueve a través de un entorno. Dependiendo de la situación dentro del entorno actual, el usuario decide 
+utilizar un algoritmo de movimiento diferente. Desde la perspectiva del objeto/contexto, sigue siendo un movimiento, pero la 
+implementación está encapsulada en la subclase en el identificador.
+
+En un juego real, los tipos de cosas que un movimiento en particular podría afectar es qué animación se repite, el audio, la 
+velocidad, el modo de seguimiento de la cámara y más.

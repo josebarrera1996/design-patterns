@@ -1,3 +1,22 @@
-                                                                                .:DECORATOR:.
+                                                                    .:COMMAND:.
+
+El patrón Command es un patrón de diseño de comportamiento, en el que existe una abstracción entre un objeto que invoca un comando 
+y el objeto que lo ejecuta.
+
+Por ejemplo, un botón llamará al Invocador, que llamará a un Comando pre-registrado, que ejecutará el Receptor.
+
+Una clase concreta delegará una solicitud a un objeto de comando, en lugar de implementar la solicitud directamente.
+
+El patrón de comando es una buena solución para implementar la funcionalidad UNDO/REDO en su aplicación.
+
+Usos:
+
+- Botones GUI, menús
+- Grabación de macros
+- Deshacer/rehacer multinivel
+- Redes: envíe objetos de comando completos a través de una red, incluso como un lote
+- Procesamiento en paralelo o grupos de subprocesos
+- Comportamiento transaccional
+- Wizards
 
 
